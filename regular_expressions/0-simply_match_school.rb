@@ -8,7 +8,7 @@ input = ARGV[0]
 pattern = /\bSchool\b/
 
 # Match the input against the regular expression
-for matches = input.scan(pattern)
+matches = input.scan(pattern)
 if input =~ pattern
   puts "#{input}"
 else
