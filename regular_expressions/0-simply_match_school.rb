@@ -9,7 +9,7 @@ pattern = /School/
 
 # Match the input against the regular expression
 if input =~ pattern
-  puts "#{input}$"
+  puts "#{input}"
 else
   puts ""
 end
