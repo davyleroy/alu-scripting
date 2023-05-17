@@ -5,7 +5,7 @@
 input = ARGV[0]
 
 # Define the regular expression pattern
-pattern = /(School)+/
+pattern = /\bSchool\b/
 
 # Match the input against the regular expression
 matches = input.scan(pattern)
@@ -15,5 +15,3 @@ else
   puts ""
 end
 
-# Print the matched result
-puts matches.join
