@@ -22,4 +22,3 @@ def top_ten(subreddit):
             data = json.loads(result.text)["data"]["children"]
             for post in data[:10]:
                 print(post["data"]["title"])
-
