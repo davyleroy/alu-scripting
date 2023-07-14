@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-i
 """
 get top 10 hot posts function
 """
