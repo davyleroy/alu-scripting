@@ -68,5 +68,5 @@ def count_words(subreddit, word_list, after=None):
         word_list = sorted_list
         for i in sorted_list:
             if i["count"] > 0:
-                print("{}: {}".format(i["key"], i["count"] * i["times"]))
+                print("{}: {}".format(i["key"], i["count"]))
         return
